@@ -6,7 +6,7 @@ import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
 // And I should see the current time in USA
 // And I should see the current time in Korea
 
-Given('I visit the URL', () => {
+Given('I visit the LambdaTest URL', () => {
     cy.visit('https://www.lambdatest.com/selenium-playground/virtual-dom');
 })
 
